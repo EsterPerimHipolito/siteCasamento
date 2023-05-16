@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg cabecalho">
           <div class="container-fluid">
             <a class="navbar-brand" href="/"
-              ><img src="/resources/img/E & L.png" alt="E & L"
+              ><img src="/resources/img/carrousel/e-e-l.png" alt="E & L"
             /></a>
             <span
               class="navbar-toggler btn"
@@ -38,10 +38,10 @@
               <div class="navbar-nav">
                 <a href="#bemvindo" class="nav-link">Bem-vindos</a>
                 <a href="#abaInfo" class="nav-link">Informações</a>
-                <a href="/pages/presentes/presentes.html" class="nav-link">Presentes</a>
-                <a href="/pages/padrinhos/padrinhos.html" class="nav-link">Padrinhos</a>
-                <a href="/pages/local/local.html" class="nav-link">Local</a>
-                <a href="/pages/contatos/contatos.html" class="nav-link">Contatos</a>
+                <a href="/presentes" class="nav-link">Presentes</a>
+                <a href="/padrinhos"class="nav-link">Padrinhos</a>
+                <a href="/local" class="nav-link">Local</a>
+                <a href="/contatos" class="nav-link">Contatos</a>
               </div>
             </div>
           </div>

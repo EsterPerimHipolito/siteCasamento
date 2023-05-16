@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "Servidor PHP": "php -S 0.0.0.0:8000 -t public"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",

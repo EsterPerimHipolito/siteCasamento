@@ -15,12 +15,28 @@ use Illuminate\Support\Facades\Auth;
 */
 Auth::routes();
 
-Route::get('/', function () {
-    return view('welcome');
-}); 
+// Route::get('/', function () {
+//     return view('welcome');
+// }); 
 
-Route::get('/inicio', function () {
+Route::get('/', function () {
     return view('index');
+});
+
+Route::get('/presentes', function () {
+    return view('presentes.index');
+});
+
+Route::get('/padrinhos', function () {
+    return view('padrinhos.index');
+});
+
+Route::get('/local', function () {
+    return view('local.index');
+});
+
+Route::get('/contatos', function () {
+    return view('contatos.index');
 });
 
 
