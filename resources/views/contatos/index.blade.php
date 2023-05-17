@@ -1,25 +1,20 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/pages/contatos/contatos.css" />
-    <title>Contatos</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
-</head>
-<body>
+@extends('layouts.layout')
+
+@section('titulo')
+    Inicio
+@endsection
+
+@section('style')
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+@endsection
+
+@section('corpo')
     
     <header>
         <nav class="navbar navbar-expand-lg cabecalho">
           <div class="container-fluid">
             <a class="navbar-brand" href="/"
-              ><img src="/resources/img/carrousel/e-e-l.png" alt="E & L"
+              ><img src="storage/img/carrousel/e-e-l.png" alt="E & L"
             /></a>
             <span
               class="navbar-toggler btn"
